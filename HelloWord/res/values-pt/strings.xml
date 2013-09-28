@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Olá mundo!</string>
+    <string name="testMenu">Menu de teste</string>
+    <string name="buttonText1">Mostrar</string>
+    <string name="mensagem">Mostrando essa coisa</string>
+    
+</resources>
