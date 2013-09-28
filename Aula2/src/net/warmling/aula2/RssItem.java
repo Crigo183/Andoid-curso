@@ -1,5 +1,7 @@
 package net.warmling.aula2;
 
+import android.graphics.Bitmap;
+
 public class RssItem {
 	
 	private String title;
@@ -11,6 +13,16 @@ public class RssItem {
 	private String imageUrl;
 	
 	private String link;
+	
+	private Bitmap image;
+
+	public Bitmap getImage() {
+		return image;
+	}
+
+	public void setImage(Bitmap image) {
+		this.image = image;
+	}
 
 	public String getLink() {
 		return link;

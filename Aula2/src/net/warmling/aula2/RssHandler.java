@@ -75,4 +75,9 @@ public class RssHandler extends DefaultHandler{
 		}
 	}
 
+	public RssItem getItem() {
+		
+		return list.get(0);
+	}
+
 }
